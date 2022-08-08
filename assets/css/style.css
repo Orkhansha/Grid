@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#head{
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+#nav-area{
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #047eb3;
+}
+#nav-area .logo{  
+    margin: 30px;
+}
+#nav-area .navbar-head{
+    margin-right: 150px;
+    margin-top: 50px;
+    text-shadow: #333;
+    word-spacing: 25px;
+}
+#nav-area .navbar-head li{
+    display: inline;
+}
+#nav-area .navbar-head li{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    
+}
+.fa-tv{
+    color: red;
+}
+#nav-area .navbar-head li a{
+    color: white;
+    text-decoration: none;
+    word-spacing: 10px;
+    margin: 15px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+   
+}
+#nav-area .navbar li{
+    display: inline;
+}
+#nav-area .navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+#nav-area .navbar li i{
+    color: white;
+    text-decoration: none;
+    
+}
+#nav-area .navbar{
+    margin-right: 150px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    text-shadow: #333;
+    word-spacing: 25px;
+}
+#nav-area .search-login{
+    margin: 30px;
+    display: flex;
+    position: relative;
+    left: 0;
+}
+#nav-area .search-login input{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+#nav-area .search-login a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+#nav-area .search-login .fa-solid{
+    margin: 8px;
+    position: absolute;
+}
+#head .quick-links{
+    display: flex;
+    width: 1400px;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    border: 20px 20px 20px 20px;
+    gap: 20px;
+    
+}
+#head .quick-links a{
+    width: 300px;
+    height: 60px;
+    padding: 15px;
+    background-color: rgba(51, 126, 238, 0.349);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.news-block1 img{
+    width: 700px;
+    border-radius: 15px;
+    margin: 20px;
+    position: relative;
+   
+}
+.news-block1{
+    position: relative;
+}
+.news-block{
+    position: relative;
+}
+.news-block img{
+    width: 350px;
+    height: 230px;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+
+}
+.news-headlines{
+    width: 310px;
+    height: 530px;
+    margin-left: 20px;
+    font-size: 20px;
+    
+    border-radius: 10px;
+    padding: 10px;
+    overflow: scroll;
+    scrollbar-color: #d4aa70 #e4e4e4;
+    border: 1px solid #047eb3;
+    overflow-y: auto;
+    
+}
+
+.news-headlines a{
+    text-decoration: none;
+    width: 300px;
+    height: 20px;
+   
+}
+.news-headlines h1{
+    padding-left: 5px;
+    color: #047eb3;
+}
+
+.paragraph-button{
+    position: absolute;
+    bottom: 38px;
+    left: 59px;
+    display: flex;
+    color: white;
+    width: 75%;
+    background-color: gray;
+    opacity: 0.9;
+    align-items: center;
+    padding-left: 12px;
+    justify-content: space-between;
+
+}
+.paragraph-button input{
+    background-color: #047eb3;
+    color: white;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.paragraph-button input:hover{
+    width: 200px;
+    height: 50px;
+    transition: 0.5s;
+}
+.news-headlines .first{
+    border: 1px solid rgb(236, 222, 222);
+    margin: 5px;
+    padding: 5px;
+}
+.news-headlines .first .date{
+    font-size: 19px;
+    word-spacing: 98px;
+}
+.paragraph-news1{
+    position: absolute;
+    bottom: 20px;
+    left: 19px;
+    display: flex;
+    color: white;
+    width: 75%;
+    background-color: rgb(83, 83, 83);
+    opacity: 0.9;
+    align-items: center;
+    padding-left: 12px;
+    border-radius: 7px;
+    justify-content: space-between;
+
+}
+.paragraph-news1 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row {
+    display: flex;
+}
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+
+}
+
+.col-9 {
+    width: 75%;
+
+}
+
+.col-10 {
+    width: 83.33%;
+
+}
+
+.col-11 {
+    width: 91.66%;
+
+}
+
+.col-12 {
+    width: 100%;
+
+}
